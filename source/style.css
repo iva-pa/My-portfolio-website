@@ -1,0 +1,12 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;
+font-family: 'Red Hat Display', sans-serif; */
+
+h1 {
+  color: red;
+  font-family: "Red Hat Display", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
