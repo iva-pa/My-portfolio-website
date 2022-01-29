@@ -39,3 +39,8 @@ h3 {
 .button-contact:hover {
   color: var(--third-color);
 }
+
+img {
+  max-width: 250px;
+  border-radius: 100%;
+}
