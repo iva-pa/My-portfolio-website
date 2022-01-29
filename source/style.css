@@ -12,40 +12,61 @@ font-family: 'Red Hat Display', sans-serif; */
   --default-font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 42px;
+    color: red;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: bold;
   line-height: 1.5;
 }
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font-family);
   color: rgb(0, 0, 0, 0.7);
-  font-size: 28px;
-  line-height: 1.2;
-}
-h4 {
-  font-family: var(--heading-font-family);
-  color: rgb(0, 0, 0, 0.7);
-  font-size: 22px;
+  font-size: 34px;
   line-height: 1.2;
 }
 
-.hero {
+h3 {
+  font-family: var(--heading-font-family);
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+body {
   text-align: center;
-  padding: 100px 0;
 }
 
 .button-contact {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 15px 20px;
+  box-shadow: var(--box-shadow);
 }
 .button-contact:hover {
   color: var(--third-color);
 }
 
+.button-project {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.button-project:hover {
+  color: var(--third-color);
+  border: solid 1px var(--third-color);
+}
 .photo {
   max-width: 250px;
   border-radius: 100%;
