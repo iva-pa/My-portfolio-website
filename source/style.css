@@ -3,10 +3,39 @@ font-family: 'Poppins', sans-serif;
 font-family: 'PT Mono', monospace;
 font-family: 'Red Hat Display', sans-serif; */
 
-h1 {
-  color: red;
-  font-family: "Red Hat Display", sans-serif;
+:root {
+  --primary-color: #085f63;
+  --secondary-color: #f1f1f1;
+  --third-color: #49beb7;
+  --box-shadow: 10px 10px 10px rgba (0, 0, 0, 0.6);
+  --heading-font-family: "Red Hat Display", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
-p {
-  font-family: "Poppins", sans-serif;
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.button-contact {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 15px 20px;
+}
+.button-contact:hover {
+  color: var(--third-color);
 }
