@@ -38,22 +38,25 @@ p {
   font-family: var(--default-font-family);
 }
 
-body {
+.hero {
+  text-align: center;
+}
+.container {
   text-align: center;
 }
 
-.button-contact {
+.button-primary {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 15px 20px;
   box-shadow: var(--box-shadow);
   font-family: var(--default-font-family);
 }
-.button-contact:hover {
+.button-primary:hover {
   color: var(--third-color);
 }
 
-.button-project {
+.button-secondary {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   border: solid 1px var(--primary-color);
@@ -61,7 +64,7 @@ body {
   font-family: var(--default-font-family);
   padding: 10px 15px;
 }
-.button-project:hover {
+.button-secondary:hover {
   color: var(--third-color);
   border: solid 1px var(--third-color);
 }
@@ -73,6 +76,24 @@ body {
   max-width: 250px;
   border-radius: 10px;
 }
+.headshot {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+.about-section {
+  padding: 80px 20px;
+  line-height: 1.5;
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 48px;
+  color: var(--primary-color);
+}
+.about-section h2 {
+  font: size 38px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -83,5 +104,9 @@ body {
   }
   h3 {
     font-size: 16px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
