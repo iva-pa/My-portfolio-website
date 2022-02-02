@@ -72,8 +72,12 @@ p {
   max-width: 250px;
   border-radius: 100%;
 }
-.project-photo {
+.project-photo-small {
   max-width: 250px;
+  border-radius: 10px;
+}
+.project-photo {
+  max-width: 300px;
   border-radius: 10px;
 }
 .headshot {
@@ -108,5 +112,9 @@ p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+  .project-photo {
+    max-width: 200px;
+    padding-top: 20px;
   }
 }
