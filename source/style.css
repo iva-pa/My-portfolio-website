@@ -86,7 +86,7 @@ p {
   box-shadow: var(--box-shadow);
 }
 .about-section {
-  padding: 80px 20px;
+  padding: 40px 20px;
   line-height: 1.5;
   margin: 30px;
 }
