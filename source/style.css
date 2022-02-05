@@ -99,6 +99,13 @@ p {
   font: size 38px;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+.nav-item {
+  padding: 0 15px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 36px;
