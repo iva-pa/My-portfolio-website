@@ -79,6 +79,8 @@ p {
 .project-photo {
   max-width: 300px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 .headshot {
   max-width: 300px;
@@ -183,7 +185,9 @@ footer .source a {
     max-width: 150px;
   }
   .project-photo {
-    max-width: 200px;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
   }
   .project-details {
     text-align: center;
